@@ -45,6 +45,12 @@
   </v-row>
 </template>
 
+<style>
+.v-list-item-title {
+  white-space: normal !important;
+}
+</style>
+
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue'
 import axios from 'axios';
